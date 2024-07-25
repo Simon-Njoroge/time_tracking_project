@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(13,19,35,255);
+    margin: 40px 10%;
+}
+.all{
+    display: flex;
+    margin-bottom: 20px;
+}
+.user{
+    width: 25%;
+    
+}
+.user{
+    background-color: #3c2bd0;
+    border-radius: 10px;
+   
+}
+.user div{
+    padding-left: 20px;
+}
+.day{
+    padding-left: 5px;
+}
+.day p{
+    margin-bottom: 20px;
+}
+.day p:hover{
+    cursor: pointer;
+    color:white;
+}
+.day p:nth-child(2){
+    color: white;
+}
+.day p:nth-child(1){
+    margin-top: 10px;
+}
+.details{
+    background-color: #5746ea;
+    padding: 20px 10px;
+    border-radius: 10px;
+    padding-right: 40px;
+    width: 100%;
+}
+.details img{
+    margin-bottom: 1em;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.details p:nth-child(2){
+    color: gray;
+   padding-bottom: 10px;
+}
+.details p:nth-child(3){
+    color: white;
+   font-size: 50px;
+   font-weight: bolder;
+   text-wrap: wrap;
+}
+.alldone{
+    margin-left: 20px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
+   
+}
+.work{
+    background-image: url('./images/icon-work.svg');
+    background-color: orange;
+    border-radius: 20px;
+    height: 100%;
+   
+}
+.workbg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ 
+}
+.workbg p,h1,h3{
+    padding: 10px;
+}
+.play{
+    background-image: url('./images/icon-play.svg');
+    background-color: rgb(45, 45, 235);
+    border-radius: 20px;
+    height: 100%;
+}
+.playbg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+}
+.playbg p,h1,h3{
+    padding: 10px;
+}
+.study{
+    background-image: url('./images/icon-study.svg');
+    background-color: rgb(240, 76, 103);
+    border-radius: 20px;
+    height: 100%;
+}
+.studybg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+}
+.studybg p,h1,h3{
+    padding: 10px;
+}
+.exercise{
+    background-image: url('./images/icon-exercise.svg');
+    background-color: rgb(30, 92, 30);
+    border-radius: 20px;
+    height: 100%;
+}
+.exercisebg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+}
+.exercisebg p,h1,h3{
+    padding: 10px;
+}
+.social{
+    background-image: url('./images/icon-social.svg');
+    background-color: rgb(43, 0, 43);
+    border-radius: 20px;
+    height: 100%;
+}
+.socialabg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+}
+.socialabg p,h1,h3{
+    padding: 10px;
+}
+.self{
+    background-image: url('./images/icon-social.svg');
+    background-color: yellow;
+    border-radius: 20px;
+    height: 100%;
+}
+.selfbg{
+    margin-top: 10px;
+    background-color: #3c2bd0;
+    width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+}
+.selfbg p,h1,h3{
+    padding: 10px;
+}
+.attribution{
+    text-align: center;
+    color: white;
+}
+.attribution a{
+    text-decoration: none;
+    color: blue;
+}
+@media only screen and (max-width:768px){
+    .all{
+        display: block;
+        width: 100%;
+    }
+    .user{
+        width: 100%;   
+        
+    }
+    .alldone{
+        margin-left: 0;
+        width: 75%;
+        display: block;
+        width: 100%;
+       
+    }
+    .day{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .day p:nth-child(1){
+        margin-top: 0px;
+    }
+    .details{
+        display: flex;
+    }
+}
